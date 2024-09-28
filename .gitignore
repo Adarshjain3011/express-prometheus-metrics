@@ -1,0 +1,32 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+/dist/
+
+# Docker
+docker-compose.override.yml
+docker-compose.debug.yml
+
+# Editor directories and files
+.vscode/
+.idea/
+
+# TypeScript
+*.tsbuildinfo
+tsconfig.tsbuildinfo
+
+# Build files
+/dist
+/out
+
+# Prometheus
+prometheus_data/
